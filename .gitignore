@@ -1,0 +1,9 @@
+""" 
+gitignore file to avoid tracking bulky data files and zip files - git commit makes a new copy everytime,
+so huge amount data will be replicated. Also zip and binary files git cannot read.
+"""
+
+
+
+big-data.zip
+data/
